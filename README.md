@@ -34,9 +34,9 @@ python test.py
 
 
 ## Citation
-If RDE is useful for your research, please cite the following papers:
+If RDE is useful for your research, you can cite the following papers:
 ```
-@inproceedings{cvpr23crossmodal,
+@inproceedings{qin2024noisy,
   title={Noisy-Correspondence Learning for Text-to-Image Person Re-identification},
   author={Qin, Yang and Chen, Yingke and Peng, Dezhong and Peng, Xi and Zhou, Joey Tianyi and Hu, Peng},
   booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
