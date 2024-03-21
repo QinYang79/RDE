@@ -2,7 +2,7 @@
 PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Person Re-identification](./src/RDE_main.pdf) (CVPR 2024).
 
 ### RDE framework
-<img src="./src/frame.png"  width="860"  />
+<img src="./src/frame.png"  width="720"  />
 
 ## Requirements and Datasets
 - Same as [IRRA](https://github.com/anosorae/IRRA)
@@ -28,7 +28,7 @@ python test.py
  
 
 ### Experiment Results:
-<img src="./src/results.png"  width="860" />
+<img src="./src/results.png"  width="720" />
 
 
 ## Citation
