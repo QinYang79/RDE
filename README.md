@@ -45,12 +45,12 @@ If RDE is useful for your research, you can cite the following papers:
 ```
 
 ```
-@article{qin2024cross,
+@article{qin2023cross,
   title={Cross-modal Active Complementary Learning with Self-refining Correspondence},
   author={Qin, Yang and Sun, Yuan and Peng, Dezhong and Zhou, Joey Tianyi and Peng, Xi and Hu, Peng},
   journal={Advances in Neural Information Processing Systems},
   volume={36},
-  year={2024}
+  year={2023}
 }
 ```
 
