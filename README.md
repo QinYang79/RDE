@@ -34,7 +34,7 @@ python test.py
 
 
 ## Citation
-If RDE is useful for your research, please cite the following paper:
+If RDE is useful for your research, please cite the following papers:
 ```
 @inproceedings{cvpr23crossmodal,
   title={Noisy-Correspondence Learning for Text-to-Image Person Re-identification},
