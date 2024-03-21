@@ -43,16 +43,6 @@ If RDE is useful for your research, you can cite the following papers:
   year={2024},
 }
 ```
-```
-@inproceedings{qin2022deep,
-  title={Deep evidential learning with noisy correspondence for cross-modal retrieval},
-  author={Qin, Yang and Peng, Dezhong and Peng, Xi and Wang, Xu and Hu, Peng},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  pages={4948--4956},
-  year={2022}
-}
-
-```
 
 ```
 @article{qin2024cross,
@@ -62,6 +52,17 @@ If RDE is useful for your research, you can cite the following papers:
   volume={36},
   year={2024}
 }
+```
+
+```
+@inproceedings{qin2022deep,
+  title={Deep evidential learning with noisy correspondence for cross-modal retrieval},
+  author={Qin, Yang and Peng, Dezhong and Peng, Xi and Wang, Xu and Hu, Peng},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={4948--4956},
+  year={2022}
+}
+
 ```
 
 ## License
