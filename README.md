@@ -1,5 +1,5 @@
 ## Introduction
-PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Person Re-identification](./src/RDE_main.pdf) (CVPR 2024).
+PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Person Re-identification](./src/RDE_main.pdf) (CVPR 2024). The solution to [the noisy correspondence problem](https://github.com/QinYang79/Noisy-Correspondence-Summary)  in TIReID.
 
 ### RDE framework
 <img src="./src/frame.png"  width="720"  />
