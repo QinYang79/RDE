@@ -62,7 +62,6 @@ If RDE is useful for your research, you can cite the following papers:
   pages={4948--4956},
   year={2022}
 }
-
 ```
 
 ## License
