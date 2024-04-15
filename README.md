@@ -1,6 +1,12 @@
 ## Introduction
 PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Person Re-identification](./src/RDE_main.pdf) (CVPR 2024). The solution to [the noisy correspondence problem](https://github.com/QinYang79/Noisy-Correspondence-Summary)  in TIReID.
 
+### News!
+
+- Accepted by CVPR 2024.
+- We will post in VALSE 2024 (Chongqing, China). The poster can be found in [here](./src/valse_poster.pdf)! 
+
+
 ### RDE framework
 The overview of our RDE. (a) is the illustration of the cross-modal embedding model used in RDE, which consists of *basical global embedding* (BGE) and *token selection embedding* (TSE) modules with different granularity. By integrating them, RDE can capture coarse-grained cross-modal interactions while selecting informative local token features to encode more fine-grained representations for a more accurate similarity. (b) shows the core of RDE to achieve robust similarity learning, which consists of Confident Consensus Division (CCD) and Triplet Alignment Loss (TAL). CCD performs consensus division to obtain confident clean training data, thus avoiding misleading from noisy pairs. Unlike traditional Triplet Ranking Loss (TRL), TAL exploits an upper bound to consider all negative pairs, thus embracing more stable learning.
 <img src="./src/frame.png"   />
