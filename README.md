@@ -5,6 +5,7 @@ PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Pers
 
 - Accepted by CVPR 2024.
 - We will post in VALSE 2024 (Chongqing, China). The poster can be found [here](./src/valse_poster.pdf).
+- We will post in CVPR 2024 (Seattle, Washington, USA). The poster can be found [here](./src/poster.png).
 
 
 ### RDE framework
