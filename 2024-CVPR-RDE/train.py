@@ -53,6 +53,10 @@ if __name__ == '__main__':
     if not os.path.isdir(args.output_dir+'/img'):
         os.makedirs(args.output_dir+'/img')
     # get image-text pair datasets dataloader
+
+    if 'ICFG-PEDES' not in args.dataset_name: #fixed
+        args.val_dataset = 'val'
+        
     train_loader, val_img_loader, val_txt_loader, num_classes = build_dataloader(args)
     model = build_model(args, num_classes)
     logger.info('Total params: %2.fM' % (sum(p.numel() for p in model.parameters()) / 1000000.0))
