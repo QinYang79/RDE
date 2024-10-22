@@ -201,7 +201,7 @@ def do_train(start_epoch, args, model, train_loader, evaluator, optimizer,
         for meter in meters.values():
             meter.reset()
 
-        model.train()
+        # model.train()
         model.epoch = epoch
         # data_size = train_loader.dataset.__len__()
         # pred_A, pred_B  =  torch.ones(data_size), torch.ones(data_size)
@@ -213,7 +213,8 @@ def do_train(start_epoch, args, model, train_loader, evaluator, optimizer,
         label_hat = consensus_division.clone()
         label_hat[consensus_division>1] = 1
         label_hat[consensus_division<=1] = 0 
-         
+        
+        model.train() 
         for n_iter, batch in enumerate(train_loader):
             batch = {k: v.to(device) for k, v in batch.items()}
             index = batch['index']
