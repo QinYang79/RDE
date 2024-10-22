@@ -4,7 +4,7 @@ PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Pers
 
 ### News!
 
-- We plan to release pre-trained model weights and training logs (0% noise) before October 25th [**soon**].
+- We plan to release pre-trained model weights and training logs (0% noise) before October 25th [**soon**]. Please note [here](https://huggingface.co/Yangsss/RDE).
 - Accepted by CVPR 2024.
 - We will post in VALSE 2024 (Chongqing, China). The poster can be found [here](./src/valse_poster.pdf).
 - We will post in CVPR 2024 (Seattle, Washington, USA). The poster can be found [here](./src/poster.png).
