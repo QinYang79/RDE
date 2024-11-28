@@ -2,6 +2,8 @@
 ## Introduction
 PyTorch implementation for [Noisy-Correspondence Learning for Text-to-Image Person Re-identification](./src/RDE_main.pdf) (CVPR 2024). The solution to [the noisy correspondence problem](https://github.com/QinYang79/Noisy-Correspondence-Summary)  in TIReID.
 
+⚠️ Fixing [issue 8](https://github.com/QinYang79/RDE/issues/8) will cause some performance degradation in noisy scenes. You can comment out "line217 model.train()" in processor/processor.py.
+
 ### News!
 
 - We release the pre-trained model weights and training logs (0% noise), [here](https://huggingface.co/Yangsss/RDE).
